@@ -1,4 +1,3 @@
-
 import asyncio
 import logging
 import os
@@ -16,7 +15,7 @@ from fastapi.responses import HTMLResponse
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger("infinity-hub")
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+BOT_TOKEN = 8641144956:AAFK2EkF5mjK0WlDccAsk4b2ZRLHzIFGu9k
 WEBAPP_URL = (
     os.getenv("WEBAPP_URL", "").strip()
     or os.getenv("RENDER_EXTERNAL_URL", "").strip()
